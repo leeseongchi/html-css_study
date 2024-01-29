@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        /* 글자간의 자간 때문에 inline block을 쓰지 않는다.
+            flex를 쓰는 이유 : 정렬때문에 */
+        .container {
+            display: flex;
+            flex-direction: row; /* 방향 - 기본값: row */
+            /* 주축 기준 방향 정렬 - 기본값: flex-start (왼쪽 끝),
+                        center (가운데), flex-end (오른쪽 끝) */
+            justify-content: center;
+            /* 교차축 기준 방향 정렬 */
+            align-items: center;
+            /* flex 줄 바꿈 */
+            flex-wrap: wrap;
+            border: 1px solid #000;
+            height: 400px;
+        }
+
+        .box1 {
+            border: 1px solid #000;
+            width: 100px;
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
