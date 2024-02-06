@@ -8,7 +8,7 @@ console.log(num1 + num2);
 
 // 호이스팅: 메모리 참조 이전에 선언이 무조건 먼저 일어나는 현상
 console.log(num1 + num3);
-var num3 = 40;
+var num3 = 40; // 상수니깐 건들지마
 console.log(num3);
 var num3 = "안녕";
 console.log(num3);

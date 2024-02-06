@@ -1,4 +1,4 @@
-// 자바스크립트 객체 형태 = { key:value, key: value }
+// 자바스크립트 객체 형태 = { key: value, key: value }
 
 let student = {
     name: "김준일",

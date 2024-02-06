@@ -21,4 +21,4 @@ console.log(n);
 n = null;
 console.log(typeof(n));
 console.log(n);
-console.log(() => {});
+console.log(() => {}); // 익명함수
