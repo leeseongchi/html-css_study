@@ -60,12 +60,10 @@ window.onload = () => {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify(dataObj)
+            }).then(response => {
+                console.log(response);
             });
-
-            dataList = [ ...dataList, dataObj ];
             
-            addInput.value = "";
-
             getDataList();
         }
     }
