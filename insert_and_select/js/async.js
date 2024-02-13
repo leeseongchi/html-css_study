@@ -37,7 +37,7 @@ const p = new Promise((resolve, reject) => {
     if(0 === 0) {
         resolve();
     }else {
-        reject(new Error("오류입니다."));       // 에러가 발생했을 때 호출
+        reject(new Error("오류입니다."));       // 에러가 발생했을 때 실행
     }
 });
 
