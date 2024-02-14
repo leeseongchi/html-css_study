@@ -4,37 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Common.css">
 </head>
 <body>
-    <div>
-        <div>
+   <div class="root-layout">
+        <div class="main-layout">
             <header>
-                <h1>Todo List</h1>
-                <p>할 일을 기록해보세요!</p>
+                <h1>My ToDo App</h1>
             </header>
+            <hr>
             <main>
-                <ul>
+                <input type="text" placeholder="할 일을 입력하세요.">
+                <button class="submit-button" onclick="handlesubmitButton();">할 일 추가</button>
+            </main>
+            <hr>
+            <div class="todo-list">
+                <ul class="ul-list">
 
                 </ul>
-            </main>
-            <footer>
-                <button></button>
-            </footer>
-            <div>
-                <div>
-                    <div>
-                        <h2>추가하기</h2>
-                    </div>
-                    <div>
-                        <textarea></textarea>
-                    </div>
-                    <div>
-                        <button>확인</button>
-                        <button>취소</button>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
+   </div>
 </body>
 </html>
