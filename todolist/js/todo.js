@@ -35,7 +35,7 @@ function getTodoList() {
     todoContentList.innerHTML = "";
 
     for(let todo of todoList) {
-        todoContentList.innerHTML += `
+        todoContentList.innerHTML += ` 
         <li class="todo-content-box">
             <div class="todo-content-header">
                 <span>

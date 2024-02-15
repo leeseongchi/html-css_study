@@ -20,4 +20,26 @@ main {
     height: 50px;
     border: 1px solid #dbdbdb;
     background-color: skyblue;
+
+    &:hover {
+        background-color: #dbdbdb;
+    }
+    &:active {
+        background-color: #eee;
+    }
+}
+
+.submit-button2 {
+    border-left: none;
+    width: 15%;
+    height: 50px;
+    border: 1px solid #dbdbdb;
+    background-color: skyblue;
+
+    &:hover {
+        background-color: #dbdbdb;
+    }
+    &:active {
+        background-color: #eee;
+    }
 }
